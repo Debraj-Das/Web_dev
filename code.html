@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code for website prints</title>
+</head>
+<body>
+    <p style="margin-left: 60px;">//{ Driver Code Starts</p>
+        <p style="margin-left: 60px;">#include &lt;bits/stdc++.h&gt;</p>
+        <p style="margin-left: 60px;"><br></p>
+        <p style="margin-left: 60px;">using namespace std;</p>
+        <p style="margin-left: 60px;"><br></p>
+        <p style="margin-left: 60px;">int sumDiff(int S[], int n);</p>
+        <p style="margin-left: 60px;"><br></p>
+        <p style="margin-left: 60px;">// Driver program to test above function</p>
+        <p style="margin-left: 60px;">int main()</p>
+        <p style="margin-left: 60px;">{</p>
+        <p style="margin-left: 60px;">#ifndef ONLINE_JUDGE</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; freopen(&quot;input.txt&quot;, &quot;r&quot;, stdin);</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; freopen(&quot;output.txt&quot;, &quot;w&quot;, stdout);</p>
+        <p style="margin-left: 60px;">#endif</p>
+        <p style="margin-left: 60px;"><br></p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; int t;</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; cin &gt;&gt; t;</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; while (t--)</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; {</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; &nbsp; &nbsp; int n;</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; &nbsp; &nbsp; cin &gt;&gt; n;</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; &nbsp; &nbsp; int S[n];</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; n; i++)</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cin &gt;&gt; S[i];</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; &nbsp; &nbsp; cout &lt;&lt; sumDiff(S, n) &lt;&lt; endl;</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; &nbsp; &nbsp; ;</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; }</p>
+        <p style="margin-left: 60px;"><br></p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; return 0;</p>
+        <p style="margin-left: 60px;">}</p>
+        <p style="margin-left: 60px;">// } Driver Code Ends</p>
+        <p style="margin-left: 60px;"><br></p>
+        <p style="margin-left: 60px;">/*You are required to complete this method */</p>
+        <p style="margin-left: 60px;">int sumDiff(int S[], int n)</p>
+        <p style="margin-left: 60px;">{</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; // Your code here</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; int i, sum_of_diff;</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; n--;</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; for (i = 0; i &lt; n; ++i)</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; {</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; &nbsp; &nbsp; sum_of_diff = S[i + 1] - S[i];</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; &nbsp; &nbsp; S[i] = sum_of_diff;</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; }</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; for (i = 0, sum_of_diff = 0; i &lt; n; ++i)</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; &nbsp; &nbsp; sum_of_diff += ((i + 1) * (n - i) * S[i]);</p>
+        <p style="margin-left: 60px;">&nbsp; &nbsp; return sum_of_diff;</p>
+        <p style="margin-left: 60px;">}</p>
+</body>
+</html>

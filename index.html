@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<!-- 
+    in serve index.html is main starting files for run
+    In HTML their are 3 things are present
+*    1. Elements - tags 
+*    2. Attribute 
+*    3. Entity
+    <!DOCTYPE html> tags use for told browser to it is a html files
+    Then 
+    html tags with attribute
+    in html tags, their two part 
+    1. head
+    2. body
+    head use for give information to browser about body's information(it called metadata)
+    and body use for data of web page
+    IN body their are some structural element(which is not mendatory for tags)
+    1. header
+    2. main
+    3. footer
+
+    semtic element
+    1. header
+    2. navs
+    3. section
+    4. footer
+
+    for as contain elements
+    5. article
+    6. aside
+
+    nonsemtic elements
+    1. div  ...it is a block element
+    2. span ...it is a inline element
+
+    # some element of body
+    header line tags -- h1 h2 h3 h4 h5 h6
+    paragraph tags -- p , bold - b , italic - i , big - big , small - small , supscript - sup , base - sub 
+    line brake -- br , Horizotal tags -- hr
+    text as it render(run in browser or system) tags - pre
+    list of tags
+        1. ordered list -- ol
+        2. unordered list -- ul
+        3. Descripting list  
+    Hyperlink -- a (ancri tag)
+    video -- video
+    table -- Table , it is also has a set of tags like --  thead , tr , th , tbody , td 
+    iframe -- iframe
+    image -- img
+    from -- from
+
+ -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS from external -->
+    <link rel="stylesheet" href="style1.css" />
+    <!-- css part of this document by style tag -->
+    <!-- <style>
+        body {
+            background-color: rgb(214, 184, 184);
+        }
+    </style> -->
+  </head>
+
+  <body>
+    <!-- body is tag and in a tags 
+    1. opening tag
+    2. contains - it can be other tags or directed contain
+    3. closing tag
+    -->
+    <header>
+      <h1 id="name">Books to Read</h1>
+      <h3>Headingonclick</h3>
+      <button id="bottom" onclick="clicked()">Click me</button>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home </a></li>
+          <li><a href="#">About </a></li>
+          <li><a href="#">Contect us </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <p>Their are lots of Books</p>
+    <big> this is the big tags use </big>
+    <br />
+    <small> this is the small tags use </small>
+    <hr />
+
+    <pre id="code">
+       // Code for Hello world in c languege
+
+        #include &lt;stdio.h&gt;
+
+        int main()
+        {
+            printf("Hello world");
+            return 0 ;
+        }
+
+        C + O<sub>2</sub> &rarr; CO<sub>2</sub>
+    </pre>
+    <!-- 
+    <img src="https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_960_720.jpg" width="621px"
+        alt="this beautiful image">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/F6YZQzDl5bg" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe> -->
+    <div class="red">
+      <p>This is for Create practise of CSS idea</p>
+    </div>
+
+    <div id="head">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+      facilis iure enim consectetur molestiae aperiam quisquam, provident, quas
+      voluptatibus nostrum similique dolorum dolores quos! Facilis quo adipisci
+      animi eveniet similique.
+    </div>
+    <br />
+    <div class="main">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque vitae,
+      delectus architecto cumque rem facere et explicabo expedita iure mollitia
+      necessitatibus sunt magni. Exercitationem sit voluptatum sapiente nisi?
+      Cum quasi eum eius molestiae! Illo et fugiat iure ex repellendus dolores
+      mollitia repudiandae rerum aut totam quis, dolorum dignissimos obcaecati
+      non aperiam ut est, voluptatem nihil eveniet magnam inventore itaque sit!
+      Id, exercitationem! Quis voluptatem amet deserunt reprehenderit excepturi
+      quibusdam veritatis dolor nemo assumenda fugit. Assumenda. ipsum dolor sit
+      amet consectetur adipisicing elit. Officiis aut nam, rerum vitae nulla,
+      doloribus quis atque eaque sequi asperiores dolores quod nisi omnis
+      voluptatibus qui, maxime expedita necessitatibus illum? Libero, quae.
+      Numquam, autem?
+    </div>
+    <br />
+
+    <!-- script of java link in down -->
+    <script src="Introduction_of_javaScript.js"></script>
+  </body>
+</html>

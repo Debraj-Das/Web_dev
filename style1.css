@@ -1,0 +1,58 @@
+/* body {
+    background-color: rgb(153, 233, 131);
+} */
+/* 
+*{
+    margin: 2;
+    padding: 4;
+    background-color: white ;
+} */
+
+
+h1,
+h3 {
+    color: red;
+}
+
+#code {
+    color: rgb(97, 5, 245);
+    /* height: 430px; */
+    /* font size property use for chance the text size */
+    font-size: large;
+}
+
+.red {
+    background-color: rgb(246, 3, 3);
+    color: white;
+}
+
+#head {
+    background-color: blue;
+}
+
+nav {
+    background-color: rgba(115, 237, 15, 0.844);
+    background-size: 200px 100px;
+    /* color: rgb(4, 243, 247); */
+    font-style: italic;
+    font-size: large;
+    text-align: right;
+
+}
+
+nav ul li a {
+    color: rgb(253, 3, 3);
+}
+
+/* .main {
+    background-color: aqua;
+    background-image: url("wed_flower.jpg");
+    background-repeat: no-repeat;
+    background-size: 1044px 1044px;
+    height: 1044px;
+    width: auto;
+    font-weight: bold;
+    font-size: large;
+    background-attachment: fixed;
+
+} */
