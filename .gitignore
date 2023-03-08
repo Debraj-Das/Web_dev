@@ -1,8 +1,9 @@
 # Folders
 Web_Matrial
 .vscode
+img_and_video
 
 # ignore files
 *.mp4
 *.jpg
-*.dio
+*.png
