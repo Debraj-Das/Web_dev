@@ -1,0 +1,36 @@
+* This Files use for note down what until now learn in Bootcamp in Web devolopment
+
+# In HTML5 ()
+1. Boiler code and general structure of HTML5
+2. Text structure -> header , paragraph , etc
+3. Lists -> order and unorder
+4. image , video , links , embedded links
+5. table
+6. Form
+7. How to publish a static website in GitHub
+
+* In HTML5 there are 3 part presents -> element(tag) , attribute , entity ;
+
+Example of element(tag) -> html , head , body , h1 , br , img , form , etc 
+similarly for attribute -> class , id , action , type , etc
+similarly for entity -> it is use for alterntive of some string or char like -> space-&nbsp;  
+
+* General structure of HTML5 
+<!DOCTYPE html>
+    <html>
+        <head>
+            ! title , style , and meta tag present here
+        </head>
+        <body>
+            ! it gives structure of Web page and website
+        </body>
+    </html>
+
+# CSS (cascading style sheets)
+
+* inline CSS
+    it used inside of tag 
+
+* internal CSS
+    it used in head tag by used style tag
+* 

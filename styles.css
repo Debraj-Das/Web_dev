@@ -1,0 +1,14 @@
+body
+{
+    background-color: rgb(219, 241, 226)
+}
+
+hr {
+    border-bottom: 0px;
+    border-top: 8px dotted white;
+    width: 10%;
+    /*
+    border-bottom: 3px dotted white ;
+    height: 10px;
+    width: 25%;*/
+  }

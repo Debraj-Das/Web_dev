@@ -11,12 +11,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- View capability of web page -->
     <title>Play Book</title>
-    <!-- Tab name which We see on tab -->
-    <style></style>
-    <!-- Where include the style of web page directly -->
+    <!-- Add a icon of the side -->
+    <link
+      rel="icon"
+      href="img_and_video/icons8-resume-50.png"
+      type="image/x-icon"
+    />
+    <!-- <style>
+      /* This is the internal CSS Used */
+      hr {
+        border-bottom: 0px;
+        border-top: 8px dotted white;
+        width: 10%;
+        /*
+        border-bottom: 3px dotted white ;
+        height: 10px;
+        width: 25%;*/
+      }
+    </style> -->
+    <!-- ADD the CSS by external files -->
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
+    <!--* this is used of inline CSS -->
     <!-- This is the place where I put my Contain of Users -->
 
     <!-- <h1>This is create by h1 tags, some tags example</h1>
@@ -57,7 +75,7 @@
     <hr />
     <br /> -->
     <!-- * Table element use for write the skill set-->
-    <h2>Skill Table Of Debraj</h2>
+    <h2>Skill Table</h2>
 
     <!-- table tag and it elements -->
     <table cellspacing="10">
@@ -87,21 +105,26 @@
     <hr />
 
     <!--* Form inside in the HTML -->
-    <form action="mailto:debrajdas.rautara@outlook.com" method="post" enctype="text/plain">
+    <form
+      action="mailto:debrajdas.rautara@outlook.com"
+      method="post"
+      enctype="text/plain"
+    >
       <label for="">Your Contect information&nbsp;***</label><br /><br />
       <label for="">Name :&nbsp;</label>
       <input type="text" name="Name : " required /><br /><br />
       <label for="">CV file :&nbsp;</label>
-      <input type="file"  name="CV : " required /><br /><br />
+      <input type="file" name="CV : " required /><br /><br />
       <label for="">Birth day :&nbsp;</label>
-      <input type="date" name ="Birth day : " required /><br /><br />
+      <input type="date" name="Birth day : " required /><br /><br />
       <label for="">Your Email :&nbsp;</label>
-      <input type="email" name = "Email contact : " required /><br /><br />
+      <input type="email" name="Email contact : " required /><br /><br />
       <label for="">Tell to Yourself</label><br />
-      <textarea name="Some Info : " id="" cols="60" rows="10"></textarea><br />
+      <textarea name="Some Info : " id="" cols="90" rows="4"></textarea><br />
       <!-- <input type="ratio"><br><br> -->
       <!-- <input type="range"><br> -->
-      <input type="submit" value="Submit"/><br /><br />
+      <input type="submit" value="Submit" /><br /><br />
     </form>
+    
   </body>
 </html>
