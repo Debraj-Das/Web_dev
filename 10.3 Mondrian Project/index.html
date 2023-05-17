@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    .container
+    {
+      display: grid;
+      grid-template-columns: 329px 369px 50px ;
+      grid-template-rows: 414px 314px 20px;
+      gap: 0px 0px;
+      width: 748px;
+      height: 748px;
+      background-color: #F0F1EC ;
+      position: relative;
+      left: 100px;   
+      top: 50px;
+    }
+
+    .red
+    {
+      width: 320px;
+      height: 414px;
+      border-color: #000;
+      border-style: solid;
+      border-width: 0px 9px 0px 0px;
+      background-color: #E72F24;
+    }
+    .white1
+    {
+      width: 320px;
+      height: 297px;
+      border-color: #000;
+      border-style: solid;
+      border-width: 9px 9px 9px 0px;
+      background-color: #F0F1EC;
+      grid-row: 2/3;
+    }
+
+    .white2
+    {
+      width: 361px;
+      height: 297px ;
+      border-color: #000;
+      border-style: solid;
+      border-width: 9px 9px 9px 0px;
+      background-color: #F0F1EC;
+      grid-row: 2/3;
+      grid-column: 2/3;
+    }
+    .blue
+    {
+      width: 50px ;
+      height: 130px ;
+      border-color: #000;
+      border-style: solid;
+      border-width: 9px 0px 10px 0px;
+      background-color: #004592;
+      grid-row: 2/3;
+      grid-column: 3/4;
+
+    }
+    .white3
+    {
+      width: 320px;
+      height: 20px;
+      border-color: #000;
+      border-style: solid;
+      border-width: 0px 9px 0px 0px;
+      background-color: #F0F1EC;
+      grid-row: 3/4;
+      grid-column: 1/2;
+      margin: 0px;
+    }
+    .last
+    {
+      width: 361px;
+      border-color: #000;
+      border-style: solid;
+      border-width: 0px 9px 0px 0px;
+      grid-row: 3/4;
+      grid-column: 2/3;
+      display: flex;
+      padding: 0px;
+    }
+    .yellow
+    {
+      flex-basis: 198px;
+      height: 20px;
+      border-color: #000;
+      border-style: solid;
+      border-width: 0px 9px 0px 0px;
+      background-color: #F9D01E;
+    }
+    .black
+    {
+      flex-basis: 155px;
+      height: 20px;
+      border-color: #000;
+      border-style: solid;
+      border-width: 0px 0px 0px 0px;
+      background-color: #232629;
+    }
+
+
+    </style>
+  </head>
+
+  <body>
+    <!-- Write your HTML here -->
+    <div class="container">
+      <div class="red"></div>
+      <div class="white1"></div>
+      <div class="white2"></div>
+      <div class="blue"></div>
+      <div class="white3"></div>
+      <div class="last">
+        <div class="yellow"></div>
+        <div class="black"></div>
+      </div>
+    </div>
+  </body>
+</html>
