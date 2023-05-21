@@ -23,6 +23,13 @@
 
 */
 
+
+//* taking input in javascripts
+// const prompt = require('prompt-sync')();
+// var name = prompt('What is your name? ');
+// console.log('Hi ' + name);
+
+
 //* some print type of methode for javascript
 // console.log("Hello world",(4+6),"another log");
 // console.warn("warning the JS");
