@@ -1,4 +1,316 @@
 <!DOCTYPE html>
+<!--~ This is for the indicating that, this is a html5 files -->
+
+<!-- 
+  * This Files use for note down what until now learn in Bootcamp in Web devolopment
+
+# In HTML5 ()
+1. Boiler code and general structure of HTML5
+2. Text structure -> header , paragraph , etc
+3. Lists -> order and unorder
+4. image , video , links , embedded links
+5. table
+6. Form
+7. How to publish a static website in GitHub
+
+* In HTML5 there are 3 part presents -> element(tag) , attribute , entity ;
+
+Example of element(tag) -> html , head , body , h1 , br , img , form , etc 
+similarly for attribute -> class , id , action , type , etc
+similarly for entity -> it is use for alterntive of some string or char like -> space-&nbsp;  
+
+* General structure of HTML5 
+<!DOCTYPE html>
+    <html>
+        <head>
+            ! title , style , and meta tag present here
+        </head>
+        <body>
+            ! it gives structure of Web page and website
+            ! script of web page
+        </body>
+    </html>
+
+
+  ! In Html, their are 3 part(it is the web structure languege)
+  ! index.html is the main file of web page which is open first time at your page display
+  <!DOCTYPE html>
+  <html>
+    <head>
+      *metadata of html's body
+      *title of webside and icon
+    / style of html's body
+      <style>
+        *css property
+      </style>
+
+    </head>
+    <body>
+      <header>
+        *head of webpage
+        *discription of webpage
+        *nav
+      </header>
+      <main>
+        *section
+        *aside
+        *artical
+        *table thead tbody tr th
+        *forms
+        *div
+        *span
+        *list ul ol
+        *video
+        *image
+        *iframe
+        *paragrapy p br b hr sub sup i small big pre
+      </main>
+      <footer>
+        *copyright
+        *information 
+      </footer>
+      / script of html's body
+      <script>
+        *dynamic behavior of side
+      </script>
+
+    </body>  
+  </html>
+
+# tag of html 
+<html> - This is the root element of an HTML document, and it contains all other elements.
+
+<head> - This element contains information about the document such as the title and meta data.
+
+<title> - This element specifies the title of the document, which is displayed in the browser's title bar.
+
+<body> - This element contains the content of the document that is displayed in the browser window.
+
+<div> - This is a generic container element used to group other elements together and apply styles.
+
+<p> - This element is used to create paragraphs of text.
+
+<a> - This element is used to create hyperlinks to other pages or resources.
+
+<img> - This element is used to insert images into the document.
+
+<ul> - This element is used to create an unordered list.
+
+<ol> - This element is used to create an ordered list.
+
+<li> - This element is used to create list items within an ordered or unordered list.
+
+<table> - This element is used to create a table with rows and columns.
+
+<tr> - This element is used to create a row within a table.
+
+<td> - This element is used to create a cell within a table.
+
+<form> - This element is used to create a form for user input.
+
+<input> - This element is used to create various types of form inputs, such as text fields, checkboxes, and radio buttons.
+
+<header> - This element is used to define a header for a section or document.
+
+<footer> - This element is used to define a footer for a section or document.
+
+<nav> - This element is used to define a section of navigation links.
+
+<section> - This element is used to define a section of content within a document.
+
+<article> - This element is used to define a self-contained article within a document.
+
+<aside> - This element is used to define content that is related to the main content but is not central to it.
+
+<main> - This element is used to define the main content of a document.
+
+<blockquote> - This element is used to define a block of quoted text.
+
+<code> - This element is used to define a block of code or code snippet.
+
+<pre> - This element is used to define preformatted text, which is typically displayed in a fixed-width font.
+
+<strong> - This element is used to define text that should be displayed in a bold font.
+
+<em> - This element is used to define text that should be displayed in an emphasized font style.
+
+<hr> - This element is used to insert a horizontal rule, which is a line that separates content.
+
+<br> - This element is used to insert a line break within a paragraph or other block of text.
+
+<iframe> - This element is used to embed another HTML document within the current document.
+
+<select> - This element is used to create a drop-down list for user selection.
+
+<option> - This element is used to define an option within a <select> element.
+
+<textarea> - This element is used to create a multi-line text input field.
+
+<label> - This element is used to associate a label with a form control.
+
+<fieldset> - This element is used to group related form controls together.
+
+<legend> - This element is used to provide a caption for a <fieldset> element.
+
+<video> - This element is used to embed a video into a web page.
+
+<audio> - This element is used to embed an audio file into a web page.
+
+<source> - This element is used to define alternative versions of media files for different browsers or devices.
+
+<canvas> - This element is used to draw graphics and animations using JavaScript.
+
+<svg> - This element is used to create scalable vector graphics.
+
+<meter> - This element is used to create a gauge or progress bar to display a measurement.
+
+<progress> - This element is used to display the progress of a task.
+
+<time> - This element is used to define a date and/or time.
+
+<details> - This element is used to create a disclosure widget that can be used to show/hide additional content.
+
+<summary> - This element is used to provide a summary or title for a <details> element.
+
+<mark> - This element is used to highlight text within a document.
+
+<output> - This element is used to display the result of a calculation or user input.
+
+<keygen> - This element is used to generate a key pair for use in a form.
+
+<ruby> - This element is used to annotate text with pronunciation guides, usually in East Asian languages.
+
+<rt> - This element is used to define the pronunciation of characters in a <ruby> element.
+
+<rp> - This element is used to provide fallback content for older browsers that do not support <ruby>.
+
+<dialog> - This element is used to create a modal dialog box.
+
+<menu> - This element is used to create a list of commands or options.
+
+<caption> - This element is used to provide a caption or title for a table.
+
+<picture> - This element is used to define multiple image sources and allow the browser to select the best one based on the user's device and screen size.
+
+<track> - This element is used to provide timed text tracks for video or audio files.
+
+<button> - This element is used to create a clickable button.
+
+<datalist> - This element is used to provide a list of suggested values for an input field.
+
+<optgroup> - This element is used to group related options within a <select> element.
+
+
+
+# name of tag of HTML5
+
+<a>
+<abbr>
+<address>
+<area>
+<article>
+<aside>
+<audio>
+<b>
+<base>
+<bdi>
+<bdo>
+<blockquote>
+<body>
+<br>
+<button>
+<canvas>
+<caption>
+<cite>
+<code>
+<col>
+<colgroup>
+<data>
+<datalist>
+<dd>
+<del>
+<details>
+<dfn>
+<div>
+<dl>
+<dt>
+<em>
+<embed>
+<fieldset>
+<figcaption>
+<figure>
+<footer>
+<form>
+<h1> to <h6>
+<head>
+<header>
+<hr>
+<html>
+<i>
+<iframe>
+<img>
+<input>
+<ins>
+<kbd>
+<label>
+<legend>
+<li>
+<link>
+<main>
+<map>
+<mark>
+<menu>
+<meta>
+<meter>
+<nav>
+<noscript>
+<object>
+<ol>
+<optgroup>
+<option>
+<output>
+<p>
+<param>
+<picture>
+<pre>
+<progress>
+<q>
+<rp>
+<rt>
+<ruby>
+<s>
+<samp>
+<script>
+<section>
+<select>
+<small>
+<source>
+<span>
+<strong>
+<style>
+<sub>
+<summary>
+<sup>
+<svg>
+<table>
+<tbody>
+<td>
+<template>
+<textarea>
+<tfoot>
+<th>
+<thead>
+<time>
+<title>
+<tr>
+<track>
+<u>
+<ul>
+<var>
+<video>
+<wbr>
+
+ -->
 
 <!-- 
     in serve index.html is main starting files for run

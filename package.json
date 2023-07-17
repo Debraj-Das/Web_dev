@@ -1,5 +1,19 @@
 {
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
-  }
+  "name": "web_dev",
+  "version": "1.0.0",
+  "description": "This is for practise web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Debraj-Das/Web_dev.git"
+  },
+  "author": "Debraj Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Debraj-Das/Web_dev/issues"
+  },
+  "homepage": "https://github.com/Debraj-Das/Web_dev#readme"
 }

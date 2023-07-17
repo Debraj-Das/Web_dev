@@ -1,8 +1,8 @@
-# Folders
-Web_Matrial
+# Folders to ignore
 .vscode
-img_and_video
 
-# ignore files
+# Files to ignore
 *.mp4
 *.pdf
+input.txt
+Rough.js
