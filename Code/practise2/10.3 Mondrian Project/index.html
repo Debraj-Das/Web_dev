@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container{
+      display: grid;
+      grid-template-columns: 329px 369px 50px;
+      grid-template-rows: 414px 305px 29px;
+      height: 748px;
+      width: 748px;
+      background-color: #F0F1EC;
+    }
+
+    .red{
+      grid-area: 1/1/2/2;
+      background-color: #E72F24;
+      border-right: 9px solid #000;
+    }
+
+    .first{
+      grid-area: 2/1/3/2;
+      border-top: 9px solid #000;
+      border-right: 9px solid #000;
+    }
+
+    .second{
+      grid-area: 2/2/3/3;
+      border-top: 9px solid #000;
+      border-right: 9px solid #000;
+    }
+
+    .blue{
+      grid-area: 2/3/3/4;
+      background-color: #004592;
+      border-top: 9px solid #000;
+      border-bottom: 10px solid #000;
+      height: 130px;
+    }
+
+    .third{
+      grid-area: 3/1/4/2;
+      border-top: 9px solid #000;
+      border-right: 9px solid #000;
+    }
+
+    .fourth{
+      grid-area: 3/2/4/3;
+      border-top: 9px solid #000;
+      border-right: 9px solid #000;
+      display : flex ;
+    }
+
+    .yellow{
+      background-color: #F9D01E;
+      border-right: 9px solid #000;
+      width: 207px;
+    }
+
+    .black{
+      background-color: #232629;
+      width: 162px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="red"></div>
+    <div class="first"></div>
+    <div class="second"></div>
+    <div class="blue"></div>
+    <div class="third"></div>
+    <div class="fourth">
+      <div class="yellow"></div>
+      <div class="black"></div>
+    </div>
+  </div>
+</body>
+
+</html>
