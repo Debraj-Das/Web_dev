@@ -25,6 +25,7 @@
 
 
 //* taking input in javascripts
+//! For install the prompt-sync module command :: npm install prompt-sync
 // const prompt = require('prompt-sync')();
 // var name = prompt('What is your name? ');
 // console.log('Hi ' + name);

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Debraj-Das/Web_dev/issues"
   },
-  "homepage": "https://github.com/Debraj-Das/Web_dev#readme"
+  "homepage": "https://github.com/Debraj-Das/Web_dev#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
