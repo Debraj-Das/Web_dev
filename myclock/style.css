@@ -1,0 +1,12 @@
+
+#clock
+{
+    background-image: url("clock.jpg");
+    height: 40vw;
+    width: 40vw; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+
