@@ -1,5 +1,6 @@
+/* eslint-disable */
 //* Basic of javascript
-const prompt = require("prompt-sync")();
+const prompt = require('prompt-sync')();
 
 // let myname = prompt("Enter your name : ");
 
@@ -27,8 +28,8 @@ const prompt = require("prompt-sync")();
 // Some practise Question
 
 function getMilk(money) {
-  console.log("leaveHouse");
-  console.log("moveRight");
+  console.log('leaveHouse');
+  console.log('moveRight');
   console.log("moveRight");
   console.log("moveUp");
   console.log("moveUp");
@@ -53,3 +54,7 @@ function getMilk(money) {
 let money = prompt("Enter the money : ");
 let change = getMilk(money);
 console.log("\nYour change is " + change);
+
+console.log("For the Better Code editor");
+
+
