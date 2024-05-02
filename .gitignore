@@ -1,6 +1,4 @@
 # Folders to ignore
 .vscode
-Assets
 Code
-node_modules
-practice
+Practice
