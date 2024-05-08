@@ -2,3 +2,9 @@
 .vscode
 working
 complete
+
+# specific files to ignore
+*.pyc
+*.pyo
+*.pyd
+
