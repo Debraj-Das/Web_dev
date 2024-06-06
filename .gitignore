@@ -1,5 +1,12 @@
 # Folders to ignore
 .vscode
+.venv
 working
 complete
 material
+
+# specific files to ignore
+*.pyc
+*.pyo
+*.pyd
+.env
